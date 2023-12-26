@@ -8,6 +8,7 @@ The objective is to create a series of tasks using Clean Architecture with Types
 ```
 PORT=3000
 
+MAILER_SERVICE=
 MAILER_EMAIL=
 MAILER_SECRET_KEY=
 
