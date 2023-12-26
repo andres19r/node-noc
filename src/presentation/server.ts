@@ -14,7 +14,7 @@ export class Server {
     console.log("Server started...");
 
     // SEND EMAILS
-    // const emailService = new EmailService();
+    // const emailService = new EmailService(fileSystemLogRepository);
     // emailService.sendEmailWithFileSystemLogs("andres19rivero@gmail.com");
 
     // CronService.createJob("*/5 * * * * *", () => {
