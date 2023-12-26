@@ -13,17 +13,9 @@ export class Server {
   public static start() {
     console.log("Server started...");
 
-    // Send email
-    const emailService = new EmailService();
-    emailService.sendEmail({
-      to: "andres19rivero@gmail.com",
-      subject: "System Logs",
-      htmlBody: `
-        <h3>System Logs - NOC</h3>
-        <p>Lorem ipsum</p>
-        <p>Check attached logs</p>
-      `,
-    });
+    // SEND EMAILS
+    // const emailService = new EmailService();
+    // emailService.sendEmailWithFileSystemLogs("andres19rivero@gmail.com");
 
     // CronService.createJob("*/5 * * * * *", () => {
     //   const url = "https://google.com";
