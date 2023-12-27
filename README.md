@@ -18,6 +18,12 @@ MONGO_URL=mongodb://andres:123456@localhost:27017
 MONGO_DB_NAME=NOC
 MONGO_USER=andres
 MONGO_PASS=123456
+
+POSTGRES_URL=
+POSTGRES_USER=postgres
+POSTGRES_DB=NOC
+POSTGRES_PASSWORD=123456 
 ```
 3. Execute the command ```npm install```
-4. Execute the command ```npm run dev```
+4. Build up the databases with docker ```docker compose up -d```
+5. Execute the command ```npm run dev```
