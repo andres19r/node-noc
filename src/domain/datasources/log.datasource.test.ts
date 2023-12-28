@@ -27,7 +27,6 @@ describe("log.datasource.ts", () => {
 
     await mockLogDatasource.saveLog(newLog);
     const logs = await mockLogDatasource.getLogs(LogSeverityLevel.high);
-    console.log(logs);
     expect(logs).toHaveLength(1);
     expect(logs[0]).toBeInstanceOf(LogEntity);
   });
